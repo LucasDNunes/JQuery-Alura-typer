@@ -1,0 +1,13 @@
+.val() = é para pegar valores de um elemento exemplo pegar o qu temem um input
+.text() = para pegar o texto do elemento exemplo pegar o texto de um H1
+
+
+campo.one("focus") => esse função 'one' faz com que seja executada apenas uma vez, e nao por exemplo, se eu tiver uma função on("click"), esse função é chamada a cada click e ser one("click"), esse função vai ser executada so no rimero clique, indempedendo se ficar clicando varias vezes
+
+campo.on("focus") => o focus é para independendte se entrar com clique ou por TAB, o javascript indetificar que está selecionado esse campo;
+
+exemplo = campo.attr => esse .attr funciona  tanto para pegar um valor como o .text(), quanto para alterar um atributo da tag; para colocar tem que fazer exemplo: campo.attr("disable", true); tem que colocar o true, para tirar um atributo apenas mude para false;
+
+function scrollPlacar = Para animar algo, utilizamos a função animate do jQuery. Ela recebe dois parâmetros, um objeto que contém as propriedades CSS a serem animadas e os seus valores, e o tempo de duração da animação. Para conseguirmos fazer o scroll do body, utilizaremos a propriedade scrollTop, ela recebe um valor em pixels, que representa a posição da nossa página para onde desejamos scrollar a página.
+
+Queremos que a página desça até a posição do placar, certo? E já temos acesso a esse valor, só que ele não está em pixels, ele é apenas um número! Então vamos concatenar esse valor à sigla px:

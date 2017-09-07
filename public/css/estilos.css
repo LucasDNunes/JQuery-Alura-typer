@@ -1,0 +1,63 @@
+body{
+	overflow: scroll; 
+	/* esse cod faz com que a pagna deixe o espaço reservado para o scroll*/
+}
+
+.frase{
+	font-size: 20px;
+	text-align: left;
+}
+
+.campoDigitacao{
+	font-size: 20px;
+	height: 130px;
+	border: 3px solid black;
+}
+.campo-desativado{
+	background-color: lightgray;
+}
+.icones{
+	vertical-align: middle;
+}
+
+.borda-verde{
+	border: 3px solid green;
+}
+
+.borda-vermelha{
+	border: 3px solid red;
+}
+.placar{
+	display: none;
+}
+#erro{
+	color: red;
+	display: none;
+}
+
+#spinner{
+	display: none;
+}
+
+#frase-id{
+    width: 40px;
+}
+
+#botao-sync{
+	float: right;
+}
+
+.select-usuario{
+	display: inline-block;
+}
+
+.selectize-input{
+	margin-left: 50px;
+	width: 150px;
+    vertical-align: middle;
+}
+
+#usuarios{
+	display: block;
+}
+
